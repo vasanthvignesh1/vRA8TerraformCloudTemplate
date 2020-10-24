@@ -1,3 +1,4 @@
+#configuration test
 provider "aws" {
     version = "2.69.0"
     region="us-west-1"
