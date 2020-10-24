@@ -142,7 +142,7 @@ resources:
   EOT
 }
 
-# Example to create a blueprint version and release it
+# Example to create a blueprint version and release it. Test comment
 resource "vra_blueprint_version" "this" {
   blueprint_id                  = vra_blueprint.this.id
   description                   = "Released from vRA terraform provider"
